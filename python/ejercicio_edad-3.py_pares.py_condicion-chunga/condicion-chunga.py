@@ -12,6 +12,8 @@ Ejercicio-condicion-chunga     Alejandro López
 num=int(raw_input("introduce un número:"))
 if (num%2 == 0) : 
 	print 'Es par' 
+if (num%2 != 0) :
+	print 'Es impar' 	
 if (num >= -10 and num <= 40) :
 	print 'Entre -10 y 40'
 if (num<0) :
