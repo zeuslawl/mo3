@@ -15,7 +15,7 @@ print '1.- Sumar'
 print '2.- Restar'
 print '3.- Multiplicar'
 print '4.- Dividir'
-print '5.- Salir'
+print '0.- Salir'
 
 opcion = raw_input('Elija una opcion ---> ')
 
@@ -46,6 +46,6 @@ if opcion == '4':
 	divi = numero1 / numero2
 	print 'El resultado es ', divi
     
-if opcion == '5':
+if opcion == '0':
 	exit
 	print 'Has salido'
