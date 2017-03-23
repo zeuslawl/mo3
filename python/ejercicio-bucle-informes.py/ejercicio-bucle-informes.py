@@ -7,7 +7,10 @@ sortir = False
 while sortir == False :
 	
 	print "Informe del año", anyo
-	if (informe == 2016) :
+	if ( anyo == 2016) :
+	
 		sortir = True
-		
-		anyo = anyo +1
+
+	anyo = anyo +1
+	
+
