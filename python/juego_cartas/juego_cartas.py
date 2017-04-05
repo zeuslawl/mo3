@@ -23,7 +23,7 @@ if aleatori1 == 3:
 	
 	
 if aleatori1 == 4:
-	jugador1 ="	4"
+	jugador1 ="4"
 
 
 if aleatori1 == 5:
@@ -57,7 +57,7 @@ if aleatori1 == 12:
 if aleatori1 == 13:
 	jugador1 ="K"
 	
-print "Maquina 1 saca",jugador1
+print "La maquina 1 saca ",jugador1
 
 if aleatori == 1:
 	jugador2 ="1"
@@ -105,7 +105,7 @@ if aleatori == 12:
 if aleatori == 13:
 	jugador2 ="K"
 	
-print "Maquina 2 saca ",jugador2
+print "La Maquina 2 saca ",jugador2
 
 
 if (jugador1==jugador2) :
