@@ -11,9 +11,12 @@ def my_range(inici,fi,increment):
 
 print "L,M,X,J,V,S,D"
 
+anyo = input('INsifweijfowif año: ')
+mes = input('Inserte fueiwhf3uiwehfquiwf mes: ')
+
 cont=1
-num_dias_mes=num_dias
-dia_semana=dia_sem
+num_dias_mes=calendar.monthrange(anyo, mes)[1]) 
+dia_semana=(calendar.weekday(anyo,mes,1))+1
 
 for fil in my_range(1,6,1):
 	for col in my_range(1,7,1):
