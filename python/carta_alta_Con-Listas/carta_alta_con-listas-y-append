@@ -21,6 +21,7 @@ palos.append("D")
 palos.append("C")
 palos.append("T")
 palos.append("P")
+
 while(salir==False):
 	
 #Random choice es para que te genere un numero al azar de la lista numeros y palos.
