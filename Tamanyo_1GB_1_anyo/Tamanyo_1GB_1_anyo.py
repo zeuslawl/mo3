@@ -16,7 +16,7 @@ for ruta, directorios, archivos in os.walk(ruta_a_explorar):
     for nombre in archivos:
 		
 		#La ruta del archivo		
-        ruta_completa=os.path.join(ruta, nombre)
+        ruta_entera=os.path.join(ruta, nombre)
         
 		#Peso de los archivos
         total_size=os.stat(ruta).st_size
@@ -29,7 +29,7 @@ for ruta, directorios, archivos in os.walk(ruta_a_explorar):
         ultimo_tiempo= int(hoy) - int(tiempo_anyo)
         
         
-        if(total_size>=tamanyo_minimo) and(ultimo_tiempo >=1 or temps_final < 0):
+        if(total_size>=tamanyo_minimo) and(ultimo_tiempo >=1 or ultimo_tiempo < 0):
 			print ruta,
 			print total_size
 			
