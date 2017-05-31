@@ -30,12 +30,13 @@ for ruta, directorios, archivos in os.walk(ruta_a_explorar):
         
         
         if(total_size>=tamanyo_minimo) and(ultimo_tiempo >=1 or temps_final < 0):
-			print total_size
 			print ruta,
+			print total_size
+			
 			print "El ultimo acceso al archivo: "
 			print tiempo	
-			print " "
+			
 
 
-print " " 
+
  
