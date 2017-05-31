@@ -9,6 +9,7 @@ ruta_a_explorar="/home/zeus/Documentos/python"
 #Tamaño 1gb en bytes
 tamanyo_minimo=1073741824
 
+
 hoy=int(time.strftime("%y"))
  
 for ruta, directorios, archivos in os.walk(ruta_a_explorar):
