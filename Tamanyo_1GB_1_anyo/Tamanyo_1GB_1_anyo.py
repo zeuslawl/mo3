@@ -24,7 +24,7 @@ for ruta, directorios, archivos in os.walk(ruta_a_explorar):
         #el ultimo dia de acceso al archivo
         tiempo=time.ctime(os.path.getatime(ruta))
         
-        tiempo_anyo = tiempo[20:24]
+        tiempo_anyo = tiempo[23:25]
         
         ultimo_tiempo= int(hoy) - int(tiempo_anyo)
         
