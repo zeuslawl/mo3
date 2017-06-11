@@ -6,7 +6,7 @@ import stat
 path_to_explore="/home/zeus/Documentos/python"
 total_size=0
    	 
-# Mostrem ruta tot    
+# Mostramos la ruta  
 for root, dirs, files in os.walk(path_to_explore):
     for name in files:
     	name_path=os.path.join(root, name)
