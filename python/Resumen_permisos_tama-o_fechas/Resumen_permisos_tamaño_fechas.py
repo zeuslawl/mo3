@@ -17,15 +17,15 @@ for root,dirs,files in os.walk(path_to_explore):
 		
 		#Peso
 		peso=os.stat(ruta).st_size
-		print name
-		print peso
+		print "El nombre del archivo es:",name
+		print "EL peso es:",peso, "bytes"
 		
 		#Ver permisos
 		permissions = stat.S_IMODE ( os.stat (path_to_explore).st_mode )
 		print oct(permissions)
 		
 		#Cambiar permisos
-		os.chmod(path_to_explore,0770)
+		#os.chmod(path_to_explore,0770)
 		
 		#Fecha ultimo acceso
 		print time.ctime(os.path.getatime(path_to_explore))
