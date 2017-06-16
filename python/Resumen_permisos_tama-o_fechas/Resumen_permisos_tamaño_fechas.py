@@ -25,7 +25,7 @@ for root,dirs,files in os.walk(path_to_explore):
 		print oct(permissions)
 		
 		#Cambiar permisos
-		#os.chmod(path_to_explore,0770)
+		os.chmod(path_to_explore,0770)
 		
 		#Fecha ultimo acceso
 		print time.ctime(os.path.getatime(path_to_explore))
